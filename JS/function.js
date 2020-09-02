@@ -26,5 +26,3 @@ var jumlahVolumeKubus = function( a, b ){
 }
 
 alert('Hasil Menjumlahkan Volume 2 Kubus: ' + jumlahVolumeKubus( 8, 3 ) );
-
-// buat supaya yuser bisa menginputkan.

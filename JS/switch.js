@@ -10,3 +10,21 @@ switch ( nilai ) {
     default :
         alert ('salah');
 }
+
+//bisa juga dengan example berikut
+var item = prompt('masukkan makana : nasi, hamburger ...');
+
+switch() {
+       case 'nasi' :
+       case 'daging' :
+       case 'susu' :
+            alert('makanan / minuman SEHAT!');
+            break;
+       case 'nasi' :
+       case 'nasi' :
+            alert('makanan / minuman TIDAK SEHAT!');
+            break;
+       default :
+            alert('yang anda masukkan tidak ada di menu');
+            break;
+       }
