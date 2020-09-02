@@ -1,2 +1,19 @@
-alert ('');   //menampilkan pesan berbentuk box
+alert ('Hello World');   //menampilkan pesan berbentuk box
+prompt('masukkan nama:');	//mengambil yang di ketik
+confirm('kamu yakin??');	//mengembalikan nilai bolean
 console.log();  //menampilkan hasil atau pesan pada console
+parseInt(prompt('masukkan angka'));	//memaksa yang di inputkan user menjadi intejer
+
+//example
+alert('selamat datang..');
+var lagi = true;
+
+while( lagi === true ) {
+	var nama = prompt('masukkan nama:');
+	alert('halo ' + nama);
+	
+	lagi = confirm('coba lagi');
+
+}
+alert('terima kasih');
+
