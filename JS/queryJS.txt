@@ -1,0 +1,1 @@
+alert ('');   //menampilkan pesan berbentuk box
