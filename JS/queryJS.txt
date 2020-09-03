@@ -4,6 +4,13 @@ confirm('kamu yakin??');	//mengembalikan nilai bolean
 console.log();  //menampilkan hasil atau pesan pada console
 parseInt(prompt('masukkan angka'));	//memaksa yang di inputkan user menjadi intejer
 
+//Array Method
+.length	//menghitung ada berapa elemen pada array (coba.length) menghitung elemen coba
+.join	//merubah isi array dan menjadi string, menampilkan secara rapi
+console.log(arr.join(' - ')); //menampilkan isi arr dan dirapikan menggunakan method .join()
+method adalah function yang berada pada sebuah objec
+
+
 //example
 alert('selamat datang..');
 var lagi = true;
